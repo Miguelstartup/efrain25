@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+}
+
+.hero{
+    background-image: url(../img/fondo\ header.jpg);
+    height:  150px;
+    background-size: cover;
+}
+
+.textoscontenedor{
+    padding-top: 20px;   
+    padding-left: 30px;
+}
+    
+
+
+.tituloheader{
+    font-size: 70px;
+    font-weight: 300; 
+}
+      
+.parrafoheader{
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 10px;
+    } 
+
+.bloquenavegador{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.514); 
+    height: 40px;  
+    padding-top: 10px;
+}
+
+/*a{
+    
+}*/
+
+.navlista {
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease;
+}
+.navlista:hover {
+  color: #410141;
+}
+
+.fotoportada{
+    background-image: url(../img/FONDORECORTADO.jpg);
+    height: 750px;
+    display: flex;
+    background-size: cover;
+
+}
+
+.falsofooter{
+    background-image: url(../img/fondo\ header.jpg);
+    background-size: cover;
+    height: 120px;   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center ;
+}
+.logos{
+    margin:0 10px ;
+    height: 50px;
+}
+
+@keyframes cambioAutomatico {
+    0% { color: aliceblue; } /* Color inicial */
+    50% { color: rgba(80, 2, 110, 0.753); } /* Color intermedio */
+    100% { color: rgba(167, 1, 153, 0.74); } /* Color final */
+}
+
+#cambioColor span {
+    display: inline-block; /* Permite aplicar estilos al span */
+    animation: cambioAutomatico 3s infinite; /* Aplica la animación al span */
+}
+
+.fondomyarts {
+    display: flex;
+    height: 750px;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    align-items: center; /* Centrar las imágenes verticalmente */
+    padding: 20px; /* Añadir espacio alrededor del contenedor */
+    background-color: #f2f2f2; /* Color de fondo */
+    overflow: hidden;
+}
+
+.imgmyarts {
+    max-width: 50%; /* Ancho máximo del contenedor */
+    max-height: 50%; /* Altura máxima del contenedor */
+    border-radius:10px;
+    object-fit: contain; /* Escalar la imagen para que se ajuste dentro del contenedor */
+}
+
+.falsofooter2{
+    background-image: url(../img/fondo\ header.jpg);
+    background-size: cover;
+    height: 120px;   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center ;
+}
