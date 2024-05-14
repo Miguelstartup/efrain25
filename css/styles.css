@@ -92,14 +92,14 @@ body{
     gap: 10px; /* Espacio entre las imágenes */
     justify-content: center; /* Centrar las imágenes horizontalmente */
     align-items: center; /* Centrar las imágenes verticalmente */
-    padding: 20px; /* Añadir espacio alrededor del contenedor */
+    padding: 10px; /* Añadir espacio alrededor del contenedor */
     background-color: #f2f2f2; /* Color de fondo */
     overflow: hidden;
 }
 
 .imgmyarts {
-    max-width: 50%; /* Ancho máximo del contenedor */
-    max-height: 50%; /* Altura máxima del contenedor */
+    max-width: 100%; /* Ancho máximo del contenedor */
+    max-height: 100%; /* Altura máxima del contenedor */
     border-radius:10px;
     object-fit: contain; /* Escalar la imagen para que se ajuste dentro del contenedor */
 }
@@ -112,4 +112,27 @@ body{
     justify-content: center;
     flex-direction: row;
     align-items: center ;
+}
+
+.fotodigitalart{
+    background-image: url(../img/contruccion.jpg);
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.paginaen{
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px; /* Alinea verticalmente el texto */
+
+}
+
+.paginaen2{
+   
+    text-align: center;
+    
+
 }
