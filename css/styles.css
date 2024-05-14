@@ -117,7 +117,7 @@ body{
 .fotodigitalart{
     background-image: url(../img/contruccion.jpg);
   background-size: cover;
-  height: 750px;
+  height: 740px;
   display: flex;
   justify-content: center;
   align-items: center;
