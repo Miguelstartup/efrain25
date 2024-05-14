@@ -54,7 +54,7 @@ body{
 
 .fotoportada{
     background-image: url(../img/FONDORECORTADO.jpg);
-    height: 500px;
+    height: 550px;
     display: flex;
     background-size: cover;
 
