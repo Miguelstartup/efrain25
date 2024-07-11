@@ -8,7 +8,7 @@ body{
 }
 
 .hero{
-    background-image: url(../img/fondo\ header.jpg);
+    background-image: url(../img/fondo\ header1.jpg);
     height:  150px;
     background-size: cover;
 }
@@ -23,12 +23,14 @@ body{
 .tituloheader{
     font-size: 70px;
     font-weight: 300; 
+    color: #f2f2f2;
 }
       
 .parrafoheader{
     font-size: 25px;
     font-weight: 100;
     padding-left: 10px;
+    color: #f2f2f2;
     } 
 
 .bloquenavegador{
@@ -44,8 +46,9 @@ body{
 }*/
 
 .navlista {
+    
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     transition: color 0.3s ease;
 }
 .navlista:hover {
@@ -54,7 +57,7 @@ body{
 
 .fotoportada{
     background-image: url(../img/FONDORECORTADO.jpg);
-    height: 650px;
+    height: 740px;
     display: flex;
     background-size: cover;
 
@@ -103,6 +106,29 @@ body{
     border-radius:10px;
     object-fit: contain; /* Escalar la imagen para que se ajuste dentro del contenedor */
 }
+.contenedordigital {
+    display: flex;
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    height: 750px;
+  }
+.carajo{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.carajo img{
+    max-width: 20%;
+    height: auto;
+    
+    object-fit: cover;
+    
+
+}
+
 
 .falsofooter2{
     background-image: url(../img/fondo\ header.jpg);
@@ -114,15 +140,6 @@ body{
     align-items: center ;
 }
 
-.fotodigitalart{
-    background-image: url(../img/contruccion.jpg);
-  background-size: cover;
-  height: 680px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    
-}
 .paginaen{
     font-size: 40px;
     text-align: center;
