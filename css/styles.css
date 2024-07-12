@@ -36,7 +36,7 @@ body{
 .bloquenavegador{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.514); 
+    background-color: rgba(0, 0, 0, 0.914); 
     height: 40px;  
     padding-top: 10px;
 }
