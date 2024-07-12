@@ -153,3 +153,45 @@ body{
     
 
 }
+@media screen and  (max-width:350px) {
+    .hero{
+        height:  110px;
+    }
+
+    .textoscontenedor{
+        padding-top: 15px;   
+        padding-left: 0px;
+    }
+
+    .tituloheader{
+        font-size: 40px;
+        font-weight: 150; 
+        text-align: center;
+    }
+    .parrafoheader{
+        font-size: 20px;
+        font-weight: 50;
+        padding-left: 0px;
+        text-align: center;
+        }
+
+        .navlista {
+            font-size: 15px;  
+        }
+        .fotoportada{ 
+            height: 400px;
+        }
+
+       
+        
+        .falsofooter{
+           
+            height: 80px;   
+            
+        }
+        .logos{
+            margin:0 10px ;
+            height: 30px;
+        }
+    
+}
